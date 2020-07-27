@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VueJs Test</title>
+
+    <link rel="stylesheet" href="content/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
+
+    <div id="vue-app">
+        <h1>{{ titulo }}</h1>
+        <p>{{ miFuncion() }}</p>
+        <p>{{ operacion(5,10) }}</p>
+    </div>
     
+    <script src="content/app.js"></script>
 </body>
 </html>
